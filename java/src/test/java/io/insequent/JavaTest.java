@@ -17,7 +17,7 @@ public class JavaTest {
     @Test
     public void testStack() throws IOException {
         App app = new App();
-        JavaL1Stack stack = new JavaL1Stack(app, "test");
+        JavaL2Stack stack = new JavaL2Stack(app, "test");
 
         // synthesize the stack to a CloudFormation template and compare against
         // a checked-in JSON file.

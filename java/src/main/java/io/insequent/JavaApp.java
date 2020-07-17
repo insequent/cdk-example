@@ -9,8 +9,8 @@ public class JavaApp {
         App app = new App();
         StackProps props = createProps("ap-southeast-2");
 
+        new JavaL2Stack(app, "JavaL2Stack", props);
         new JavaL1Stack(app, "JavaL1Stack", props);
-        //new JavaL2Stack(app, "JavaL2Stack", props);
 
         app.synth();
     }
